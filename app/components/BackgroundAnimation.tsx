@@ -38,7 +38,7 @@ export default function BackgroundAnimation() {
     return (
         <div className="fixed inset-0 overflow-hidden pointer-events-none z-0">
             {/* Sky Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-b from-accent/5 to-transparent opacity-50"></div>
+            <div className="absolute inset-0 bg-linear-to-b from-accent/5 to-transparent opacity-50"></div>
 
             {/* Clouds - Layer 1 (Slow, Background) */}
             <div className="absolute top-20 -left-40 animate-cloud-slow opacity-30">
@@ -68,8 +68,8 @@ export default function BackgroundAnimation() {
                         className="w-full h-auto drop-shadow-2xl"
                     />
                     {/* Engine Contrails */}
-                    <div className="absolute top-[55%] right-[20%] w-48 h-1 bg-gradient-to-l from-white/40 to-transparent blur-sm transform rotate-6"></div>
-                    <div className="absolute top-[65%] right-[20%] w-48 h-1 bg-gradient-to-l from-white/40 to-transparent blur-sm transform rotate-6"></div>
+                    <div className="absolute top-[55%] right-[20%] w-48 h-1 bg-linear-to-l from-white/40 to-transparent blur-sm transform rotate-6"></div>
+                    <div className="absolute top-[65%] right-[20%] w-48 h-1 bg-linear-to-l from-white/40 to-transparent blur-sm transform rotate-6"></div>
                 </div>
             )}
 
