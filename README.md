@@ -1,6 +1,6 @@
 # ✈️ SkyTracker
 
-![SkyTracker Demo](./public/demo-screenshot.png)
+![SkyTracker Demo](https://sky-scanner-pi.vercel.app/))
 
 > **Experience the next generation of flight tracking with real-time data, beautiful visualization, and instant updates.**
 
@@ -57,7 +57,7 @@ This project is optimized for deployment on **Vercel**.
 
 | Desktop View | Mobile View |
 |:---:|:---:|
-| ![Desktop](./public/desktop-demo.png) | ![Mobile](./public/mobile-demo.png) |
+| ![Desktop](./public/sky%20scanner%20image%201.png) | ![Mobile](./public/mobile-demo.png) |
 
 *(Add your screenshots to the `public` folder and update the filenames above)*
 
